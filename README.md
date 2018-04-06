@@ -1,4 +1,4 @@
-# esp8266-wifi-direct-examples
+# esp8266-wifi-direct-examples for Arduino IDE
 Server and client example to wifi control a Adafruit PCA9685 servo controller
 
 This will allow you to take advantage of the esp8266's WIFI direct feature, aka p2p feature.  A client esp8266 connects to a server esp8266 with no access point inbetween, and establishes a TCP socket connection.  Analog data is read from potentiometers wired to a 4051 multiplexer to the esp's single analog input.  Data is sent as a casted array to the server.  The speed is very fast, possibly up to HD video quality streaming.
